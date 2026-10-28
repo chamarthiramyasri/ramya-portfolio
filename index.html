@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ramya's personal portfolio showcasing web development skills, projects and experience.">
+  <title>Ramya | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="#home" class="logo">Ramya<span>.</span></a>
+
+    <button class="menu-toggle" id="menu-toggle"
+      aria-label="Toggle navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav id="nav-menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Ramya <span>—</span></h1>
+        <h2>Frontend Developer</h2>
+
+        <p class="intro">
+          I build responsive, user-friendly websites with clean
+          code and thoughtful design. I enjoy turning ideas into
+          useful digital experiences.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">Explore My Work</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+
+        <p class="availability">● Open to exciting opportunities</p>
+      </div>
+
+      <div class="hero-art" aria-label="Developer illustration">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <span class="code-dot">●</span>
+          <span class="code-dot">●</span>
+          <span class="code-dot">●</span>
+          <pre><code>const developer = {
+  name: "Ramya",
+  passion: "Web Development",
+  goal: "Build great things"
+};</code></pre>
+        </div>
+        <div class="floating-badge">Design ✦ Develop ✦ Learn</div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+
+      <p class="about-text">
+        I'm an aspiring web developer who enjoys creating clean,
+        accessible and responsive user interfaces. I work with
+        HTML, CSS and JavaScript and am expanding my skills in
+        modern frontend development.
+      </p>
+
+      <div class="stats">
+        <div><strong>01</strong><span>Creative Thinking</span></div>
+        <div><strong>02</strong><span>Continuous Learning</span></div>
+        <div><strong>03</strong><span>Problem Solving</span></div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I WORK WITH</p>
+        <h2>My <span>Skills</span></h2>
+      </div>
+
+      <div class="skill-grid">
+        <article class="skill-card">
+          <div class="skill-icon">H5</div>
+          <h3>HTML5</h3>
+          <p>Semantic page structure and accessible content.</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">C3</div>
+          <h3>CSS3</h3>
+          <p>Layouts, responsive design and animations.</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">JS</div>
+          <h3>JavaScript</h3>
+          <p>Interactive components and dynamic behavior.</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">R</div>
+          <h3>React</h3>
+          <p>Reusable components and modern user interfaces.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">A FEW THINGS I'VE BUILT</p>
+        <h2>Featured <span>Projects</span></h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-preview preview-one">&lt;/&gt;</div>
+          <div class="project-info">
+            <p class="project-type">WEB DESIGN</p>
+            <h3>Personal Portfolio</h3>
+            <p>A responsive website to showcase skills and work.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <a href="#contact">Discuss this project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview preview-two">✓</div>
+          <div class="project-info">
+            <p class="project-type">PRODUCTIVITY</p>
+            <h3>Task Manager</h3>
+            <p>A simple interface for organizing everyday tasks.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <a href="#contact">Discuss this project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview preview-three">☀</div>
+          <div class="project-info">
+            <p class="project-type">WEB APPLICATION</p>
+            <h3>Weather Dashboard</h3>
+            <p>A weather interface with an API integration goal.</p>
+            <div class="tags"><span>JavaScript</span><span>API</span></div>
+            <a href="#contact">Discuss this project ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+        <h2>Let's <span>Connect</span></h2>
+      </div>
+
+      <p>I'm interested in web development opportunities and
+        collaborating on creative projects.</p>
+
+      <a class="btn primary" href="mailto:your-email@example.com">
+        Email Me ↗
+      </a>
+
+      <p class="contact-note">
+        Replace the example email with your actual email address.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Ramya. Built with HTML, CSS & JavaScript.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
